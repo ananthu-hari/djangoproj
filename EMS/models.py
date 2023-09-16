@@ -8,7 +8,7 @@ class Event(models.Model):
     description = models.TextField()
 
     class Meta:
-        db_table = 'event'  # Specify the table name as 'event'
+        db_table = 'EMS_Event'  # Specify the table name as 'event'
 
     def __str__(self):
         return self.event_title
@@ -20,7 +20,7 @@ class Registration(models.Model):
     event = models.ForeignKey(Event, on_delete=models.CASCADE)
 
     class Meta:
-        db_table = 'registration'  # Specify the table name as 'registration'
+        db_table = 'EMS_Registration'  # Specify the table name as 'registration'
 
     def __str__(self):
         return self.full_name
