@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'djangoproj.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.config(default='postgres://ems_8gz5_user:g0PPrujTV3ALwGo8WZexqTBOKpm6oVdN@dpg-ck0o0rj6fquc738ljsig-a/ems_8gz5')
+    'default': dj_database_url.config(default='postgres://ems_1crc_user:jH2qFIHAxMiPWyKSnfNC4IkUA3zt3Alm@dpg-ck2lgu6ru70s738im0pg-a/ems_1crc')
 }
 
 
